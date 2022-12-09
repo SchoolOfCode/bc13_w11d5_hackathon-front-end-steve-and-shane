@@ -6,14 +6,16 @@
 	--off-white: #f2f2f2;
 	--off-white-light: #fafafa;
 	--dark-grey: #333;
+	--dark-mode-bg: #181a1b;
+	--dark-mode-font: #c7c3bc;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap");
 
 /* base styles */
 * {
 	margin: 0;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: "Space Grotesk", sans-serif;
 	color: var(--dark-grey);
 }
 .navbar {
@@ -137,4 +139,11 @@
 }
 .not-found a:hover {
 	color: var(--bot-blog-dark-blue);
+}
+
+/* Dark Mode */
+
+.dark {
+	background-color: var(--dark-mode-bg);
+	color: var(--dark-mode-font);
 }
